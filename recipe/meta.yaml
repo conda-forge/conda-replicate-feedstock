@@ -1,5 +1,5 @@
 {% set name = "conda-replicate" %}
-{% set version = "0.1" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cswartzvi/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 5432e410cecd5826df55a8ccafa056ae6c13508b13db3ef032182cd4b262e6e4
+  sha256: 6ff6836f5c2ab06a22d5e863babc63fee06547577f23d0b19bedcb4963e85da6
 
 build:
   number: 0
