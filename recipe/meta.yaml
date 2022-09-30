@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cswartzvi/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 75B2AA1B958C2865E6B09E946CD518D1A7BE0BB4B86B8DA95CCF2818BB5FA8EF
+  sha256: 75b2aa1b958c2865e6b09e946cd518d1a7be0bb4b86b8da95ccf2818bb5fa8ef
 
 build:
   number: 0
